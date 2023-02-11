@@ -1,18 +1,19 @@
 package com.wa7a.ui
 
-import com.wa7a.model.FakeApiService
-import com.wa7a.model.FakeDatabase
+import com.wa7a.model.repository.UserRepository
+import com.wa7a.model.repository.WisdomRepository
 
 class MainPresenter(private val viewInterface: IMainView) {
-    private val api = FakeApiService()
-    private val database = FakeDatabase()
+    val userRepository = UserRepository()
+    val wisdomRepository = WisdomRepository()
+
 
     fun getUserInfo() {
-        viewInterface.onUserInfoSuccess(database.getCurrentUser())
+        viewInterface.onUserInfoSuccess(userRepository.getCurrentUser())
     }
 
     fun getWisdom() {
-        viewInterface.onWisdomCallSuccess(api.getRandomWisdom())
+        viewInterface.onWisdomCallSuccess(wisdomRepository.getAWisdom())
     }
 
 
