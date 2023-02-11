@@ -1,7 +1,7 @@
-package com.wa7a.ui
+package com.wa7a.MVPSimpleDesign.ui
 
-import com.wa7a.model.repository.UserRepository
-import com.wa7a.model.repository.WisdomRepository
+import com.wa7a.MVPSimpleDesign.data.repository.UserRepository
+import com.wa7a.MVPSimpleDesign.data.repository.WisdomRepository
 
 class MainPresenter(private val viewInterface: IMainView) {
     val userRepository = UserRepository()

@@ -1,6 +1,6 @@
-package com.wa7a.model
+package com.wa7a.MVPSimpleDesign.data.api
 
-import com.wa7a.model.data.Wisdom
+import com.wa7a.MVPSimpleDesign.data.model.Wisdom
 import kotlin.random.Random
 
 class FakeApiService {

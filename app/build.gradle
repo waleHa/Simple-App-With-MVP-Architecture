@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.wa7a.feb10'
+    namespace 'com.wa7a.MVPSimpleDesign'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.wa7a.feb10"
+        applicationId "com.wa7a.MVPSimpleDesign"
         minSdk 26
         targetSdk 33
         versionCode 1

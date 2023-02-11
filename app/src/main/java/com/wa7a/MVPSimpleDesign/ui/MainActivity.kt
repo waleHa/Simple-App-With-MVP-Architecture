@@ -1,12 +1,10 @@
-package com.wa7a.feb10
+package com.wa7a.MVPSimpleDesign.ui
 
 import android.view.LayoutInflater
 import android.widget.Toast
-import com.wa7a.feb10.databinding.ActivityMainBinding
-import com.wa7a.model.data.User
-import com.wa7a.model.data.Wisdom
-import com.wa7a.ui.BaseActivity
-import com.wa7a.ui.MainPresenter
+import com.wa7a.MVPSimpleDesign.databinding.ActivityMainBinding
+import com.wa7a.MVPSimpleDesign.data.model.User
+import com.wa7a.MVPSimpleDesign.data.model.Wisdom
 
 class MainActivity() : BaseActivity<ActivityMainBinding>() {
     override val LOG_TAG: String = "MainActivity"

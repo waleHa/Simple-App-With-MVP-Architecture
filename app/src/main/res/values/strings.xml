@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Feb 10</string>
+    <string name="app_name">MVP Simple Design</string>
     <string name="fetch_text">Fetch Data</string>
     <string name="text_content">content</string>
     <string name="user_name">UserName</string>
